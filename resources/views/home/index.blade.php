@@ -1,0 +1,13 @@
+@extends('layouts.app')
+@section('title',__('titles.commons.home'))
+@section('content')
+@include('home.sliders')
+@include('home.courses')
+@include('home.trainings')
+@include('home.statistics')
+@include('home.teachers')
+@include('home.library')
+@endsection
+@section('script')
+@include('scripts.home')
+@endsection

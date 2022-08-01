@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/cairoar.woff2") format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+
+@font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/tajawal.woff2") format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+$font-size-base: 1rem;
+$line-height-base: 1.6;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+button,
+thead,
+.alert,
+.hf,
+.btn {
+    font-family: 'Cairo', sans-serif;
+}
+
+.cf {
+    font-family: 'Tajawal', sans-serif;
+}
